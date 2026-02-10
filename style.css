@@ -38,3 +38,10 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/*  On large screens, the square image should only take up half the viewport width*/
+@media (min-width: 960px) {
+  picture img {
+    width: 50vw;
+  }
+}
